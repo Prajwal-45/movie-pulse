@@ -1,0 +1,36 @@
+.hit{
+    background: rgb(3, 193, 3);
+    
+}
+.average{
+    background: rgb(118, 118, 11);
+}
+
+.low{
+    background: rgb(221, 77, 77);
+}
+.rating{
+    padding: 0.3rem 0.7rem;
+    border-radius: 100%;
+}
+.nameOfApp {
+            position: absolute;
+            top: 20px;
+            display: inline-block; 
+            color: #E50914; 
+            font-family: 'Anton', sans-serif; 
+            font-size: 1.5em;
+            text-transform: uppercase;
+            text-align: center; 
+            padding: 5px 10px; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+            background: rgba(38, 37, 37, 0.5); 
+            border-radius: 8px; 
+            cursor: pointer; 
+            transition: text-shadow 0.3s ease, transform 0.3s ease;
+        }
+
+        .nameOfApp:hover {
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+            transform: translateY(-5px)
+        }
