@@ -10,9 +10,7 @@ function App() {
     <Header></Header>
      <Card/>
      </section>
-
-  
-
+     
      </>
   )
 }
