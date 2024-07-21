@@ -1,0 +1,98 @@
+/* Container styles */
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0%;
+    padding-right: 0%;
+    list-style-type: none;
+    justify-content: space-around; /* Ensure cards start at the beginning of the row */
+    box-sizing: border-box; /* Ensure padding and borders are included in the width */
+  }
+  
+  /* Card styles */
+  li {
+    flex: 0 1 calc(25% - 40px); /* Adjust the width to be 1/4 minus margin */
+    margin: 10px; /* Adds space between list items */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    background-color: #000; /* Black background color for the card */
+    color: #fff; /* White text color for contrast */
+    padding: 15px; /* Adjusted padding inside the card */
+    border: 1px solid #444; /* Dark border for the card */
+    border-radius: 8px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect for the card */
+    text-align: center; /* Center the text inside the card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items at the top of the card */
+    width: 220px; /* Fixed width for the cards */
+    height: 450px; /* Adjusted height for the cards */
+    overflow: hidden; /* Ensure content stays within the card */
+  }
+  
+  li img {
+    width: 100%; /* Make the image take full width of the div */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
+  }
+  
+  li div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items at the top of the card */
+    width: 100%;
+    height: 100%;
+  }
+  
+  li h2, li h3, li p {
+    margin: 5px 0; /* Space between text elements */
+    overflow: hidden; /* Prevent text from overflowing */
+    text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+    white-space: normal; /* Allow text wrapping */
+  }
+  
+  li h2 {
+    font-size: 16px; /* Adjust font size */
+  }
+  
+  li h3 {
+    font-size: 14px; /* Adjust font size */
+  }
+  
+  li p {
+    font-size: 12px; /* Adjust font size */
+    max-height: 40px; /* Limit height for summary */
+  }
+  
+  li a {
+    color: #1e90ff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Reduced padding around the link */
+    border: 1px solid #1e90ff; /* Border around the link */
+    border-radius: 4px; /* Rounded corners for the link */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+    display: inline-block; /* Ensure proper box model and spacing */
+    margin-top: auto; /* Push the link to the bottom */
+  }
+  
+  li a:hover {
+    background-color: #1e90ff; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+  }
+  
+  li button {
+    padding: 5px 10px; /* Reduced padding for the button */
+    background-color: #1e90ff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  li button:hover {
+    background-color: #1c7ed6; /* Darker background on hover */
+  }
+  
+  
