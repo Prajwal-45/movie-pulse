@@ -69,17 +69,17 @@ ul {
     color: #1e90ff;
     text-decoration: none; 
     padding: 5px 10px; 
-    border: 1px solid #1e90ff; 
     border-radius: 4px;
     transition: background-color 0.3s, color 0.3s; 
     display: inline-block; 
     margin-top: auto; 
   }
-  
-  li a:hover {
-    background-color: #1e90ff; 
-    color: #fff; 
-  }
+
+li a:hover {
+    color: #fff; /* Hover color */
+    transform: scale(1.1); /* Zoom effect: scales the element to 110% */
+}
+
   
   li button {
     padding: 5px 10px; 
@@ -91,8 +91,6 @@ ul {
     transition: background-color 0.3s; 
   }
   
-  li button:hover {
-    background-color: #1c7ed6; 
-  }
+ 
   
   
